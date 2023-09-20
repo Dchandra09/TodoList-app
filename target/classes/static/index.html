@@ -1,0 +1,70 @@
+<!--DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <h1>Todo List</h1>
+    <div id="todo-list">
+        <Todo items will be displayed here >
+    </div>
+    <div>
+        <input type="text" id="todo-title" placeholder="Enter title">
+        <input type="text" id="todo-description" placeholder="Enter description">
+        <input type="date" id="todo-date">
+        <label for="completed">Completed:</label>
+        <input type="checkbox" id="completed">
+        <button id="add-todo-button">Add Todo</button>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <header>
+        <h1>Todo List</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" id="createTaskLink">Create Task</a></li>
+                <li><a href="manage-tasks.html">Manage Tasks</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="todo-list">
+        <!-- Todo items will be displayed here -->
+    </div>
+    <div>
+        <div class="form-group">
+            <label for="todo-title">Task Title</label>
+            <input type="text" id="todo-title" placeholder="Enter title">
+        </div>
+        <div class="form-group">
+            <label for="todo-description">Description</label>
+            <textarea id="todo-description" placeholder="Enter description"></textarea>
+        </div>
+        <div class="form-group">
+            <label class="completed-label" for="completed">Completed:</label>
+            <input type="checkbox" id="completed">
+        </div>
+        <div class="form-group">
+            <label for="todo-date">Due Date</label>
+            <input type="date" id="todo-date">
+        </div>
+        <button id="add-todo-button">Add Todo</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

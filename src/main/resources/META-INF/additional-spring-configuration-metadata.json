@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "DEBUG",
+    "type": "java.lang.String",
+    "description": "A description for 'DEBUG'"
+  },
+  {
+    "name": "spring.jpa.defer-datasource-initialization",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.jpa.defer-datasource-initialization'"
+  }
+]}
